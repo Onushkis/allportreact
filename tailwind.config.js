@@ -10,7 +10,12 @@ module.exports = {
     extend: {
       colors: {
         'regal-violetbtn': '#A594EB',
+        'bg-regal-white': '#fff',
+        width: {
+          '1366': '85.375rem',
+        }
       }
+      
     },
   },
   plugins: [],

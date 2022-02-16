@@ -1,15 +1,24 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Header from './components/Header';
+import NavbarTop from './components/NavbarTop';
+
 
 function App() {
   return (
     <div className="App">
-      <div>
+    
 
-     <h1 className="text-green-400 text-center text-mid border-8 border-[#243c5a]">miauona</h1>
-      </div>
+      <Router >
+          <Header />
+        <Routes>
+
+        </Routes>
+      </Router>
        
     </div>
   );
 }
 
 export default App;
+  
