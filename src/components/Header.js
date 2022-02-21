@@ -6,7 +6,7 @@ import News from './News'
 
 const Header = () => {
   return (
-    <div className='bg-indigo-500 w-1366 ' >
+    <div className=' w-1366 ' >
         <NavbarTop />
         <NavBarMain />
         

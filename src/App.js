@@ -9,6 +9,10 @@ import JobTools from './components/JobTools'
 import WhoWeAre from './components/WhoWeAre'
 import CovidInfo from './components/CovidInfo'
 import Foooter from './components/Footer'
+import AccessibilityHelp from './components/AccessibilityHelp';
+import CorporateWebsite from './components/CorporateWebsite';
+import ContactUs from './components/ContactUs';
+import NotFound from './components/NotFound'
 
 
 
@@ -25,8 +29,11 @@ function App() {
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="/" element={<News />} />
 
-          <Route path="/" element={<DepartmentServices />} />
-          <Route path="/" element={<JobTools />} />
+          <Route path="DepartmentServices" element={<DepartmentServices />} />
+          <Route path="JobTools" element={<JobTools />} />
+          <Route path="/*" element={<NotFound />} />
+
+
 
         </Routes>
         <Foooter />
