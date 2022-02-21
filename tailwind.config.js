@@ -13,6 +13,9 @@ module.exports = {
         'bg-regal-white': '#fff',
         width: {
           '1366': '85.375rem',
+        },
+        height: {
+          '130': '8.125',
         }
       }
       
