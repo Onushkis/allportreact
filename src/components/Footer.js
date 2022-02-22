@@ -1,9 +1,10 @@
 import React from 'react'
-import AccessibilityHelp from './AccessibilityHelp'
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ContactUs from './ContactUs'
 import CorporateWebsite from './CorporateWebsite'
 import FAQs from './FAQs'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
 
 
 const Footer = () => {
@@ -13,11 +14,11 @@ const Footer = () => {
         
         <div className='flex justify-around '>
             
-    <Link to='/'> </Link>
-            <FAQs />
-            <AccessibilityHelp />
-            <CorporateWebsite />
-            <ContactUs />
+            <Link to='/'> </Link>
+            <Link to='FAQs'>FAQs </Link>
+            <Link to='AccessibilityHelp'>AccessibilityHelp</Link>
+            <Link to='CorporateWebsite'>CorporateWebsite</Link>
+            <Link to='ContactUs'>ContactUs</Link>
         </div>
      
     </div>
