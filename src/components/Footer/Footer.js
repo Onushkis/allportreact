@@ -10,9 +10,10 @@ import FAQs from './FAQs'
 const Footer = () => {
   return (
     <div className='bg-indigo-500 w-1366 '>
-        <div><Link to='/'> allblabla</Link></div>
         
-        <div className='flex justify-around '>
+        
+        <div className='flex justify-between text-[#FFFF] font-bold p-4 '>
+        <Link to='/'> allPort</Link>
             
             <Link to='/'> </Link>
             <Link to='FAQs'>FAQs </Link>
