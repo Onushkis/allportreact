@@ -13,6 +13,7 @@ import AccessibilityHelp from './Footer/AccessibilityHelp'
 import CorporateWebsite from './Footer/CorporateWebsite'
 import ContactUs from './Footer/ContactUs'
 import FAQs from './Footer/FAQs'
+import FeaturedNews from './Main/FeaturedNews';
 import NotFound from './components/NotFound'
 
 
@@ -35,21 +36,16 @@ function App() {
           <Route path="WhoWeAre" element={<WhoWeAre />} />
           <Route path="CovidInfo" element={<CovidInfo />} />
 
+              <Route path="FAQs" element={<FAQs />} />  
+              <Route path="AccessibilityHelp" element={<AccessibilityHelp />} />  
+              <Route path="CorporateWebsite" element={<CorporateWebsite />} />  
+              <Route path="ContactUs" element={<ContactUs />} />  
+              <Route path="CovidInfo" element={<CovidInfo />} />  
 
-
-
-            <Route path="FAQs" element={<FAQs />} />  
-            <Route path="AccessibilityHelp" element={<AccessibilityHelp />} />  
-            <Route path="CorporateWebsite" element={<CorporateWebsite />} />  
-            <Route path="ContactUs" element={<ContactUs />} />  
-            <Route path="CovidInfo" element={<CovidInfo />} />  
-
-
+              <Route path='FeaturedNews' element={FeaturedNews} />
 
 
           <Route path="/*" element={<NotFound />} />
-
-
 
         </Routes>
         <Footer />
@@ -59,6 +55,13 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
 
 
 
