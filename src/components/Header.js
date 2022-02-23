@@ -1,6 +1,6 @@
 import React from 'react'
-import DepartmentServices from './Navigation/DepartmentServices'
-import NavBarMain from './Navigation/NavBarMain'
+import DepartmentServices from './DepartmentServices'
+import NavBarMain from './NavBarMain'
 import NavbarTop from './NavbarTop'
 import News from './News'
 

@@ -1,8 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import ContactUs from './ContactUs'
-import CorporateWebsite from './CorporateWebsite'
-import FAQs from './FAQs'
+import ContactUs from '../Footer/ContactUs'
+import CorporateWebsite from '../Footer/CorporateWebsite'
+import FAQs from '../Footer/FAQs'
+import AccessibilityHelp from '../Footer/AccessibilityHelp'
 
 
 

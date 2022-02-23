@@ -1,13 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import logo from './images/logo.png'
-import News from '../Navigation/News'
-import DepartmentServices from '..Navigation/DepartmentServices'
-import JobTools from '..Navigation/JobTools'
-import SearchBar from '..Navigation/SearchBar'
-import WhoWeAre from '..Navigation/WhoWeAre'
-import CovidInfo from '..Navigation/CovidInfo'
+import logo from '../images/logo.png'
+import News from '../components/News'
+import DepartmentServices from '../components/DepartmentServices'
+import JobTools from '../components/JobTools'
+import SearchBar from '../components/SearchBar'
+import WhoWeAre from '../components/WhoWeAre'
+import CovidInfo from '../components/CovidInfo'
 
 
 const NavBarMain = () => {

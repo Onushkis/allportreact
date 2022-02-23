@@ -1,18 +1,18 @@
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Header from './Headercomponents/Navigation/Header';
-import NavbarTop from './components/Navigation/NavbarTop';
-import News from './components/Navigation/News'
-import DepartmentServices from './components/Navigation/DepartmentServices'
-import JobTools from './components/Navigation/JobTools'
-import WhoWeAre from './components/Navigation/WhoWeAre'
-import CovidInfo from './components/Navigation/CovidInfo'
-import Foooter from './components/Footer/Footer'
-import AccessibilityHelp from './components/Footer/AccessibilityHelp';
-import CorporateWebsite from './components/Footer/CorporateWebsite';
-import ContactUs from './components/Footer/ContactUs';
-import FAQs from './components/Footer/FAQs';
+import Header from './components/Header'
+import NavbarTop from './components/NavbarTop'
+import News from './components/News'
+import DepartmentServices from './components/DepartmentServices'
+import JobTools from './components/JobTools'
+import WhoWeAre from './components/WhoWeAre'
+import CovidInfo from './components/CovidInfo'
+import Footer from './Footer/Footer'
+import AccessibilityHelp from './Footer/AccessibilityHelp'
+import CorporateWebsite from './Footer/CorporateWebsite'
+import ContactUs from './Footer/ContactUs'
+import FAQs from './Footer/FAQs'
 import NotFound from './components/NotFound'
 
 
@@ -52,7 +52,7 @@ function App() {
 
 
         </Routes>
-        <Foooter />
+        <Footer />
       </Router>
     </div>
   );
